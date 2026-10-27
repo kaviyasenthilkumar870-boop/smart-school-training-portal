@@ -1,0 +1,285 @@
+{
+  "schools": [
+    {
+      "_id": "sch_1793077838906_3h7a",
+      "name": "st.marys",
+      "code": "SJM-01",
+      "address": "chennai",
+      "contactEmail": "chennai@gmail.com",
+      "contactPhone": "",
+      "active": true,
+      "createdAt": "2026-10-27T05:10:38.906Z"
+    },
+    {
+      "_id": "sch_greenwood_01",
+      "name": "Greenwood High School",
+      "code": "GHS-01",
+      "address": "42 Pine Valley Avenue, Sector 4",
+      "contactEmail": "admin@greenwood.edu",
+      "contactPhone": "+1 (555) 234-5678",
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "sch_oakridge_02",
+      "name": "Oakridge Academy",
+      "code": "ORA-02",
+      "address": "88 Heritage Boulevard",
+      "contactEmail": "principal@oakridge.edu",
+      "contactPhone": "+1 (555) 876-5432",
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "_id": "u_1793079456791_qqet",
+      "name": "Arun Kumar",
+      "email": "arun.kumar@greenwood.edu",
+      "password": "$2a$10$PY66ORb9n5B79ySFQPGhbeMfQHmzkmqNCW8obhjQz3Q6khro0BA0y",
+      "role": "student",
+      "schoolId": "sch_greenwood_01",
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T05:37:36.791Z"
+    },
+    {
+      "_id": "u_1793079358586_q5z8",
+      "name": "Priya Mohan",
+      "email": "priya.mohan@greenwood.edu",
+      "password": "$2a$10$vIAkvlelWUuq9lL.RfzV7uGhk8AvMmacjFtjyKiCsz8trl5JQ.aW6",
+      "role": "student",
+      "schoolId": "sch_greenwood_01",
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T05:35:58.586Z"
+    },
+    {
+      "_id": "u_1793079141224_0h9x",
+      "name": "kaaa",
+      "email": "aa@gmail",
+      "password": "$2a$10$e.Oo1e3OSex00Xm0ZtimpeaPaABbhsF5sYz7J5A92ZwMNwgaQu2oK",
+      "role": "student",
+      "schoolId": "sch_1793077838906_3h7a",
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T05:32:21.224Z"
+    },
+    {
+      "_id": "u_admin_01",
+      "name": "Portal Administrator",
+      "email": "admin@smartschool.edu",
+      "password": "$2a$10$C4M1ZdIo1oEPaaynOcmQIu0eSH7EIYXtx/bYGkwFZSFlmngHU7lbe",
+      "role": "admin",
+      "schoolId": null,
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "u_staff_01",
+      "name": "David Martinez",
+      "email": "trainer.david@smartschool.edu",
+      "password": "$2a$10$C4M1ZdIo1oEPaaynOcmQIu0eSH7EIYXtx/bYGkwFZSFlmngHU7lbe",
+      "role": "staff",
+      "schoolId": null,
+      "assignedSchoolIds": [
+        "sch_greenwood_01",
+        "sch_oakridge_02"
+      ],
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "u_student_01",
+      "name": "Emma Watson",
+      "email": "emma.student@greenwood.edu",
+      "password": "$2a$10$C4M1ZdIo1oEPaaynOcmQIu0eSH7EIYXtx/bYGkwFZSFlmngHU7lbe",
+      "role": "student",
+      "schoolId": "sch_greenwood_01",
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "u_student_02",
+      "name": "Liam Chen",
+      "email": "liam.chen@oakridge.edu",
+      "password": "$2a$10$C4M1ZdIo1oEPaaynOcmQIu0eSH7EIYXtx/bYGkwFZSFlmngHU7lbe",
+      "role": "student",
+      "schoolId": "sch_oakridge_02",
+      "assignedSchoolIds": [],
+      "active": true,
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "_id": "ev_1793079194214_0mku",
+      "title": "ssssss",
+      "description": "dddddddd",
+      "category": "Technology",
+      "date": "2026-11-25",
+      "startTime": "10:00 AM",
+      "endTime": "02:00 PM",
+      "venue": "Main Innovation Hall",
+      "registrationDeadline": "2026-10-27",
+      "capacity": 50,
+      "eligibleSchoolIds": [
+        "sch_1793077838906_3h7a",
+        "sch_greenwood_01",
+        "sch_oakridge_02"
+      ],
+      "status": "published",
+      "createdBy": "u_admin_01",
+      "createdAt": "2026-10-27T05:33:14.214Z"
+    },
+    {
+      "_id": "ev_1793077668038_ev3b",
+      "title": "fff",
+      "description": "ffffffffffff",
+      "category": "Technology",
+      "date": "2026-11-25",
+      "startTime": "10:00 AM",
+      "endTime": "02:00 PM",
+      "venue": "Main Innovation Hall",
+      "registrationDeadline": "2026-11-20",
+      "capacity": 50,
+      "eligibleSchoolIds": [
+        "sch_greenwood_01",
+        "sch_oakridge_02"
+      ],
+      "status": "published",
+      "createdBy": "u_admin_01",
+      "createdAt": "2026-10-27T05:07:48.038Z"
+    },
+    {
+      "_id": "ev_ai_iot_01",
+      "title": "AI & IoT Training Programme",
+      "description": "Comprehensive hands-on training on Artificial Intelligence and Internet of Things (IoT). Students build smart connected sensor devices, edge computing nodes, and integrate AI classification models.",
+      "category": "AI & IoT",
+      "date": "2026-11-10",
+      "startTime": "09:30 AM",
+      "endTime": "03:30 PM",
+      "venue": "Smart IoT & Robotics Innovation Lab",
+      "registrationDeadline": "2026-11-05",
+      "capacity": 50,
+      "eligibleSchoolIds": [
+        "sch_greenwood_01",
+        "sch_oakridge_02"
+      ],
+      "status": "published",
+      "createdBy": "u_admin_01",
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    }
+  ],
+  "registrations": [
+    {
+      "_id": "reg_ai_iot_01",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_student_01",
+      "schoolId": "sch_greenwood_01",
+      "registrationDate": "2026-10-27",
+      "status": "registered",
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "reg_ai_iot_02",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_student_02",
+      "schoolId": "sch_oakridge_02",
+      "registrationDate": "2026-10-27",
+      "status": "registered",
+      "createdAt": "2026-10-27T04:30:00.000Z"
+    },
+    {
+      "_id": "reg_1793079358615_icnw",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_1793079358586_q5z8",
+      "schoolId": "sch_greenwood_01",
+      "registrationDate": "2026-10-27",
+      "status": "registered",
+      "createdAt": "2026-10-27T05:35:58.615Z"
+    },
+    {
+      "_id": "reg_1793079456801_35d2",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_1793079456791_qqet",
+      "schoolId": "sch_greenwood_01",
+      "registrationDate": "2026-10-27",
+      "status": "registered",
+      "createdAt": "2026-10-27T05:37:36.801Z"
+    },
+    {
+      "_id": "reg_1793079762890_l4eb",
+      "eventId": "ev_1793079194214_0mku",
+      "studentId": "u_student_01",
+      "schoolId": "sch_greenwood_01",
+      "registrationDate": "2026-10-27",
+      "status": "cancelled",
+      "createdAt": "2026-10-27T05:42:42.890Z"
+    }
+  ],
+  "attendances": [
+    {
+      "_id": "att_ai_iot_01",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_student_01",
+      "schoolId": "sch_greenwood_01",
+      "markedByStaffId": "u_staff_01",
+      "status": "present",
+      "markedAt": "2026-10-27T05:44:44.500Z",
+      "notes": "Verified present for AI & IoT Training"
+    },
+    {
+      "_id": "att_ai_iot_02",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_student_02",
+      "schoolId": "sch_oakridge_02",
+      "markedByStaffId": "u_staff_01",
+      "status": "present",
+      "markedAt": "2026-10-27T05:44:44.500Z",
+      "notes": "Verified present for AI & IoT Training"
+    },
+    {
+      "_id": "att_1793079690835_k2x4",
+      "eventId": "ev_1793077668038_ev3b",
+      "studentId": "u_student_01",
+      "schoolId": "sch_greenwood_01",
+      "markedByStaffId": "u_staff_01",
+      "status": "absent",
+      "markedAt": "2026-10-27T05:41:30.835Z",
+      "notes": ""
+    },
+    {
+      "_id": "att_1793079690835_542f",
+      "eventId": "ev_1793077668038_ev3b",
+      "studentId": "u_student_02",
+      "schoolId": "sch_oakridge_02",
+      "markedByStaffId": "u_staff_01",
+      "status": "present",
+      "markedAt": "2026-10-27T05:41:30.835Z",
+      "notes": ""
+    },
+    {
+      "_id": "att_1793079727077_87ll",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_1793079358586_q5z8",
+      "schoolId": "sch_greenwood_01",
+      "markedByStaffId": "u_staff_01",
+      "status": "absent",
+      "markedAt": "2026-10-27T05:44:44.500Z",
+      "notes": ""
+    },
+    {
+      "_id": "att_1793079727077_gw38",
+      "eventId": "ev_ai_iot_01",
+      "studentId": "u_1793079456791_qqet",
+      "schoolId": "sch_greenwood_01",
+      "markedByStaffId": "u_staff_01",
+      "status": "present",
+      "markedAt": "2026-10-27T05:44:44.500Z",
+      "notes": ""
+    }
+  ]
+}
