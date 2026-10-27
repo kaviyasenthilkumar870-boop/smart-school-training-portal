@@ -3,7 +3,7 @@
  * Handles client-server communication with JWT authentication
  */
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 // Helper to get auth headers with JWT token
 export function getAuthHeaders() {
